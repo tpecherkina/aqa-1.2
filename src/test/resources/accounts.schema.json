@@ -6,7 +6,7 @@
     "type": "object",
     "additionalProperties": false,
     "required": [
-      "id-shouldfail",
+      "id",
       "name",
       "number",
       "balance",
@@ -35,4 +35,3 @@
       }
     }
   }
-}
