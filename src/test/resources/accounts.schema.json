@@ -6,7 +6,7 @@
     "type": "object",
     "additionalProperties": false,
     "required": [
-      "id",
+      "id-shouldfail",
       "name",
       "number",
       "balance",
@@ -29,7 +29,9 @@
         "default": 0
       },
       "currency": {
-        "type": "string"
+  "type": "string",
+  "enum": ["RUB", "USD"]
+}
       }
     }
   }
